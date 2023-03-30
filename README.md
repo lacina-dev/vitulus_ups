@@ -12,11 +12,13 @@ Publications:
     All published values.
 
  * /power_values [vitulus_ups/power_values]
+
     Raw power values (voltages, currents, etc).
 
  * /rosout [rosgraph_msgs/Log]
 
  * /ups [vitulus_ups/vitulus_ups]
+ 
     All published values. (deprecated) Use /power_status instead.
 
 
