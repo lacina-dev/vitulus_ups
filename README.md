@@ -141,3 +141,6 @@ For more info see this doc.
 
  Questions? Try Discord.
  [Discord channel](https://discord.gg/YqeNV5hEVN)
+
+
+ ![Power module assembled](DSC03553.JPG)
