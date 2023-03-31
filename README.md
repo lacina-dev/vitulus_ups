@@ -110,8 +110,6 @@ It is not absolute sleep. The robot is in standby state and Mega 2560 and some o
 
 	Set the temperature in °C to start cooling by the internal fan. It is a temperature measured under the mosfets. Default 35 °C.
 
-
-
 ## Install
 
 `cd ~/catkin_ws/src/vitulus`
@@ -127,6 +125,16 @@ It is not absolute sleep. The robot is in standby state and Mega 2560 and some o
 `roslaunch vitulus_ups vitulus_ups.launch`
 
 ## Info
+
+For power module board see [Power module](https://github.com/lacina-dev/power_module).
+
+For power module extension board see [Power module extension](https://github.com/lacina-dev/power_module_extension).
+
+For power module software see [Power module v3.1](https://github.com/lacina-dev/powermodulev3_1).
+
+For more info see this doc. 
+[VITULUS Power module assembly and wiring](https://docs.google.com/document/d/1gbUeb38EpmrZyLzsyhS_GtbKjz4Z-vhWeXakbzIWZlc/edit?usp=sharing)
+
 
  More about VITULUS? See my website.
  [https://lacina.dev](https://lacina.dev)
