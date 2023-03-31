@@ -3,7 +3,7 @@
 
 ## Node [/vitulus_ups]
 
-Publications: 
+## Publications: 
 
  * /diagnostics [diagnostic_msgs/DiagnosticArray]
 
@@ -22,7 +22,9 @@ Publications:
     All published values. (deprecated) Use /power_status instead.
 
 
-Subscriptions: 
+## Subscriptions: 
+
+### Switches
 
 * /set_19v_out_switch [std_msgs/Bool]
 
@@ -34,7 +36,7 @@ Subscriptions:
 
 * /set_charge_switch [std_msgs/Bool]
 
-Connect/disconnect (true/false) battery from the charger.	
+    Connect/disconnect (true/false) battery from the charger.	
 
 * /set_discharge_switch [std_msgs/Bool]
 
@@ -43,6 +45,8 @@ Connect/disconnect (true/false) battery from the charger.
 * /set_motor_switch [std_msgs/Bool]
 
 	Switch on/off (true/false) battery output of Power module.
+
+### Charging currents
 
 * /set_charge_current_standby [std_msgs/Int16]
 
@@ -96,6 +100,7 @@ Set to false to cancel the sleep for the time.
 	
     Set timeout in [ms] to shut down the Power module when on battery in standby state and do nothing. 
 
+### Temperature
 
 * /set_temp_setpoint [std_msgs/Float64]
 
