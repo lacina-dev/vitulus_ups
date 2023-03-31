@@ -23,10 +23,10 @@
 
 
 ## Subscriptions: 
-
+****
 ### Switches
 
-* **** /set_19v_out_switch [std_msgs/Bool]
+* ** /set_19v_out_switch [std_msgs/Bool] **
 
     Switch on/off (true/false) 19 V output of Power module. It is the power for NUC, so be sure what you are doing. You can power off the robot. It is for future use.
 
