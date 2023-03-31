@@ -1,6 +1,9 @@
 # Vitulus ups
  Vitulus Power module ROS controller.
 
+ it is necessary to map the USB port where power module is connected to /dev/ups before you run this package.
+
+
 ## Node [/vitulus_ups]
 
 ## Publications: 
