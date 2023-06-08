@@ -20,7 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
 ################################################################################
 # Setup for python modules and scripts
 ################################################################################
-catkin_python_setup()
+# catkin_python_setup()
 
 ################################################################################
 # Declare ROS messages, services and actions
@@ -70,7 +70,6 @@ install(DIRECTORY launch
 
 
 catkin_install_python(PROGRAMS
-  nodes/ups_manager
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
